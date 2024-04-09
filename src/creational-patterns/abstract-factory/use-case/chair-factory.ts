@@ -1,4 +1,4 @@
-import { ChairName } from "./../../factory/chair";
+import { ChairName } from "../../factory/use-case/chair";
 import { Product } from "./dimension";
 import BigChair from "./big-chair";
 import MediumChair from "./medium-chair";
