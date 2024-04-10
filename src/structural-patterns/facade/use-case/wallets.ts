@@ -18,7 +18,7 @@ export default class Wallets {
     // A method to initialise a users wallet
     if (!(userId in this.wallets)) {
       this.wallets[userId] = 0;
-      this.reports.logEvent(`walletr for '${userId}' created and set to 0`);
+      this.reports.logEvent(`Wallet for '${userId}' created and set to 0`);
       return true;
     } else return false;
   }
