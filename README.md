@@ -98,6 +98,8 @@
 
   Pass an object called a visitor to a hierarchy of objects and execute a method on them.
 
-[^1]: Abstracts the instantiation process so that there is a logical separation between how objects are composed and finally represented.
-[^2]: Focuses more on how classes and objects are composed using the different structural techniques, and to form structures with more or altered flexibility.
-[^3]: Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
+[^1]: *Abstracts the instantiation process so that there is a logical separation between how objects are composed and finally represented.*
+
+[^2]: *Focuses more on how classes and objects are composed using the different structural techniques, and to form structures with more or altered flexibility.*
+
+[^3]: *Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.*
