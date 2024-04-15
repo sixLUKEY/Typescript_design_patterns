@@ -4,4 +4,4 @@ In the example use case, there is an AbstractDocument with several methods, some
 
 The document will be written out in two different formats.
 
-Depending on the concrete class used, the text() method will wrap new lines with <p> tags and the print() method will format text with tabs, or include HTML tags.
+Depending on the concrete class used, the text() method will wrap new lines with `<p>` tags and the print() method will format text with tabs, or include HTML tags.
