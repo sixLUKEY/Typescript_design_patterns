@@ -22,6 +22,7 @@
 
   A class that can be instanced at any time, but after it is first instanced, any new instances will point to the original instance.
 
+
 ## Structural Patterns
 
 - ### Decorator
@@ -51,6 +52,7 @@
 - ### Proxy
 
   A class functioning as an interface to another class or object.
+
 
 ## Behavioral Patterns
 
