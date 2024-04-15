@@ -6,12 +6,12 @@ To begin with, in simple terms, think if it as a Factory that can return Factori
 
 ## Terminology
 
-Client: The client application that calls the Abstract Factory. It's the same process as the Concrete Creator in the Factory design pattern.
+**Client**: The client application that calls the Abstract Factory. It's the same process as the Concrete Creator in the Factory design pattern.
 
-Abstract Factory: A common interface over all the sub factories.
+**Abstract Factory**: A common interface over all the sub factories.
 
-Concrete Factory: The sub factory of the Abstract Factory and contains method(s) to allow creating the Concrete Product.
+**Concrete Factory**: The sub factory of the Abstract Factory and contains method(s) to allow creating the Concrete Product.
 
-Abstract Product: The interface and/or abstraction for the product that the sub factory returns.
+**Abstract Product**: The interface and/or abstraction for the product that the sub factory returns.
 
-Concrete Product: The object that is finally returned.
+**Concrete Product**: The object that is finally returned.

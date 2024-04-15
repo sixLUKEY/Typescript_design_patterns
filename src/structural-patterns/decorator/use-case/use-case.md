@@ -1,14 +1,14 @@
 # Decorator Use Case
 
-Let's create a custom class called Value that will hold a number.
+Let's create a custom class called `Value` that will hold a number.
 
-Then add decorators that allow addition (Add) and subtraction (Sub) to a number (Value).
+Then add decorators that allow addition (`Add`) and subtraction (`Sub`) to a number (`Value`).
 
-The Add and Sub decorators can accept numbers directly, a custom Value object or other Add and Sub decorators.
+The `Add` and `Sub` decorators can accept numbers directly, a custom `Value` object or other `Add` and `Sub` decorators.
 
-Add, Sub and Value all implement the IValue interface and can be used recursively.
+`Add`, `Sub` and `Value` all implement the `IValue` interface and can be used recursively.
 
-Note that in this example use case, I have created the Add, Sub and Value as functions that return new instances of classes \_Add, \_Sub and \_Value. This was not necessary, but it means that I can use the Add, Sub and Value in a recursive manner without needing to prefix the new keyword in front of each usage all the time.
+Note that in this example use case, I have created the `Add`, `Sub` and `Value` as functions that return new instances of classes `_Add`, `_Sub` and `_Value`. This was not necessary, but it means that I can use the `Add`, `Sub` and `Value` in a recursive manner without needing to prefix the `new` keyword in front of each usage all the time.
 
 E.g,
 

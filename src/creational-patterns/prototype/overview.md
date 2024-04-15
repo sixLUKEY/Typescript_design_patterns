@@ -15,6 +15,6 @@ You will now have two arrays, but the elements within the arrays will point to t
 
 ## Terminology
 
-- Prototype Interface: The interface that describes the ```clone()``` method.
-- Prototype: The Object/Product that implements the Prototype interface.
-- Client: The client application that uses and creates the ProtoType.
+- **Prototype Interface**: The interface that describes the ```clone()``` method.
+- **Prototype**: The Object/Product that implements the Prototype interface.
+- **Client**: The client application that uses and creates the ProtoType.

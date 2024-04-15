@@ -29,7 +29,7 @@ class ClassBAdapter implements IA {
   }
 
   /**
-   * @description calls ClassB methodB() instead
+   * Calls ClassB methodB() instead
    */
   methodA(): void {
     this.classB.methodB();
