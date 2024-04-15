@@ -8,7 +8,10 @@ interface IHouseBuilder {
   setNumberWindows(number: number): this;
   getResult(): House;
 }
-
+/**
+ *  @returns all methods return 'this', allowing for chaining functions
+ *  @example HouseBuilder.setBuildingType().setWallMaterial().allOtherFunctions...()
+ */
 export default class HouseBuilder implements IHouseBuilder {
   house: House;
 

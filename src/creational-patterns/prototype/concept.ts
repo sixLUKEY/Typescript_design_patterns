@@ -1,10 +1,10 @@
 interface IPrototype {
   // Interface with clone method
-  clone(): this;
   /**
    * Clone is deep or shallow
    * Up to you how you want to implement details in your concrete class
    */
+  clone(): this;
 }
 
 class MyClass implements IPrototype {
@@ -15,12 +15,12 @@ class MyClass implements IPrototype {
     this.field = field;
   }
 
+  /**
+   * @optional @example 
+   *  return JSON.parse(JSON.stringify(this)) // For a deep copy
+   */
   clone(): this {
     return Object.assign({}, this); // For a shallow copy
-    /**
-     * @optional
-     *  return JSON.parse(JSON.stringify(this)); // For a deep copy
-     */
   }
 }
 
@@ -34,7 +34,6 @@ const OBJECT2 = OBJECT1.clone(); // Clone Object
 console.log(`OBJECT2: ${JSON.stringify(OBJECT2)}`);
 
 /**
- * @description
  * Change the value of one of the array elements in OBJECT2
  * Depending on clone method, either a shallow or deep copy was performed
  */
@@ -46,8 +45,8 @@ console.log(`OBJECT1: ${JSON.stringify(OBJECT1)}`);
 
 /**
  * @output
- *  
+ *
  *  When using a shallow copy, changing the inner item of OBJECT2 also affects OBJECT1
- * 
- *  When using a deep copy, changing the inner item of OBJECT2 does NOT affect OBJECT1 
+ *
+ *  When using a deep copy, changing the inner item of OBJECT2 does NOT affect OBJECT1
  */
