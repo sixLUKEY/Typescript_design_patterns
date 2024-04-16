@@ -1,6 +1,6 @@
 # Overview
 
-The Bridge pattern is similar to the Adapter except in the intent that you developed it.
+The **Bridge pattern** is similar to the Adapter except in the intent that you developed it.
 
 The Bridge is an approach to refactor already existing code, whereas the Adapter creates an interface on top of existing code through existing available means without refactoring any existing code or interfaces.
 

@@ -1,6 +1,6 @@
 # Overview
 
-Fly in the term Flyweight means light/not heavy.
+**Fly** in the term **Flyweight** means light/not heavy.
 
 Instead of creating thousands of objects that share common attributes, and result in a situation where a large amount of memory or other resources are used, you can modify your classes to share multiple instances simultaneously by using some kind of reference to the shared object instead.
 
@@ -16,14 +16,14 @@ You can have many contexts, and when they ask for a Flyweight, they will get an 
 
 When describing flyweights, it is useful to describe it in terms of intrinsic and extrinsic attributes.
 
-Intrinsic (in or including) are the attributes of a flyweight that are internal and unique from the other flyweights. E.g., a new flyweight for every letter of the alphabet. Each letter is intrinsic to the flyweight.
+**Intrinsic** (in or including) are the attributes of a flyweight that are internal and unique from the other flyweights. E.g., a new flyweight for every letter of the alphabet. Each letter is intrinsic to the flyweight.
 
-Extrinsic (outside or external) are the attributes that are used to present the flyweight in terms of the context where it will be used. E.g., many letters in a string can be right aligned with each other. The extrinsic property of each letter is the new positioning of its X and Y on a grid.
+**Extrinsic** (outside or external) are the attributes that are used to present the flyweight in terms of the context where it will be used. E.g., many letters in a string can be right aligned with each other. The extrinsic property of each letter is the new positioning of its X and Y on a grid.
 
 ## Terminology
 
-Flyweight Interface: An interface that describes the intrinsic properties of the flyweight.
-Concrete Flyweight: The actual flyweight object that stores the intrinsic attributes and is instantiated when needed by the factory.
-Flyweight Factory: Creates and manages the flyweights at runtime. It reuses flyweights or creates a new one on demand.
-Context: Any object(s) within your application that will use the Flyweight Factory.
-Client: The client application that contains contexts.
+- **Flyweight Interface**: An interface that describes the intrinsic properties of the flyweight.
+- **Concrete Flyweight**: The actual flyweight object that stores the intrinsic attributes and is instantiated when needed by the factory.
+- **Flyweight Factory**: Creates and manages the flyweights at runtime. It reuses flyweights or creates a new one on demand.
+- **Context**: Any object(s) within your application that will use the Flyweight Factory.
+- **Client**: The client application that contains contexts.

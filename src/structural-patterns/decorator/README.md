@@ -12,6 +12,6 @@ You can nest decorators recursively.
 
 ## Terminology
 
-- Component Interface: An interface for objects.
-- Component: The object that may be decorated.
-- Decorator: The class that applies the extra responsibilities to the component being decorated. It also implements the same component interface.
+- **Component Interface**: An interface for objects.
+- **Component**: The object that may be decorated.
+- **Decorator**: The class that applies the extra responsibilities to the component being decorated. It also implements the same component interface.

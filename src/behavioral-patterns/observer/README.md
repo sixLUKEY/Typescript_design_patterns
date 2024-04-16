@@ -1,6 +1,6 @@
 # Overview
 
-The Observer pattern is a software design pattern in which an object, called the Subject (Observable), manages a list of dependents, called Observers, and notifies them automatically of any internal state changes by calling one of their methods.
+The **Observer** pattern is a software design pattern in which an object, called the **Subject** (**Observable**), manages a list of dependents, called **Observers**, and notifies them automatically of any internal state changes by calling one of their methods.
 
 The Observer pattern follows the publisher/subscribe concept. A subscriber, subscribes to a publisher. The publisher then notifies the subscribers when necessary.
 
@@ -24,7 +24,7 @@ If updates on the observer end are allowed to suffer from some delay, then a pul
 
 ## Terminology
 
-Subject Interface: (Observable Interface) The interface that the subject should implement.
-Concrete Subject: (Observable) The object that is the subject.
-Observer Interface: The interface that the observer should implement.
-Concrete Observer: The object that is the observer. There can be a variable number of observers that can subscribe/unsubscribe during runtime.
+- **Subject Interface**: (Observable Interface) The interface that the subject should implement.
+- **Concrete Subject**: (Observable) The object that is the subject.
+- **Observer Interface**: The interface that the observer should implement.
+- **Concrete Observer**: The object that is the observer. There can be a variable number of observers that can subscribe/unsubscribe during runtime.
