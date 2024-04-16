@@ -22,4 +22,4 @@ The `A` and `B` are Terminal expressions and the `+` is Non-Terminal because it 
 - **Non-Terminal Expression**: A composite of Terminal and/or Non-Terminal expressions.
 - **Terminal Expression**: A leaf node Expression.
 - **Context**: Context is state that can be passed through interpret operations if necessary.
-**Client**: Builds or is given an Abstract Syntax Tree to interpret.
+- **Client**: Builds or is given an Abstract Syntax Tree to interpret.

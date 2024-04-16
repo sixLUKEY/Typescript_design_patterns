@@ -1,6 +1,6 @@
 # Overview
 
-The Strategy Pattern is similar to the State Pattern, except that the client passes in the algorithm that the context should run.
+The **Strategy** Pattern is similar to the State Pattern, except that the client passes in the algorithm that the context should run.
 
 The algorithm should be contained within a class that implements the particular strategies interface.
 
@@ -18,6 +18,6 @@ Software Plugins can be implemented using the Strategy pattern.
 
 ## Terminology
 
-Strategy Interface: An interface that all Strategy subclasses/algorithms must implement.
-Concrete Strategy: The subclass that implements an alternative algorithm.
-Context: This is the object that receives the concrete strategy in order to execute it.
+- **Strategy Interface**: An interface that all Strategy subclasses/algorithms must implement.
+- **Concrete Strategy**: The subclass that implements an alternative algorithm.
+- **Context**: This is the object that receives the concrete strategy in order to execute it.

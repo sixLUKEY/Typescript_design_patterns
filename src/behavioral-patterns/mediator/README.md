@@ -1,6 +1,6 @@
 # Overview
 
-Objects communicate through the Mediator rather than directly with each other.
+Objects communicate through the **Mediator** rather than directly with each other.
 
 As a system evolves and becomes larger and supports more complex functionality and business rules, the problem of communicating between these components becomes more complicated to understand and manage. It may be beneficial to refactor your system to centralize some or all of its functionality via some kind of mediation process.
 
@@ -8,5 +8,5 @@ The mediator pattern is similar to implementing the Facade pattern between your 
 
 ## Terminology
 
-Mediator: The coordinator of communications between the components (colleagues).
-Colleagues: One of the many types of concrete components that use the mediator.
+- **Mediator**: The coordinator of communications between the components (colleagues).
+- **Colleagues**: One of the many types of concrete components that use the mediator.
