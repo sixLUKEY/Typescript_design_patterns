@@ -11,5 +11,9 @@
   "devDependencies": {
     "@types/node": "^20.12.5",
     "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@types/mongodb": "^4.0.7",
+    "mongodb": "^6.5.0"
   }
 }
