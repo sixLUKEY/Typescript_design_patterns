@@ -11,7 +11,7 @@ export default class Document implements IPrototype {
 
   clone(mode: number): Document {
     // This clone method uses different copy techniques
-    let array;
+    let array: [number[], number[]];
     if (mode === 2) {
       // Results in a deep copy of the document
       array = JSON.parse(JSON.stringify(this.array));
